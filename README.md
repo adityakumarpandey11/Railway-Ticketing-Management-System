@@ -118,18 +118,18 @@ python3 project1.py
 The current version uses predefined login credentials.
 
 User
-Username: student
-Password: student123
+- Username: student
+- Password: student123
 Admin
-Username: admin
-Password: admin123
+- Username: admin
+- Password: admin123
 
 Note: These credentials are included directly in the source code for this project.
----
+--- 
 
 ## Instructions for Testing
 
-#Test 1: User Login
+# Test 1: User Login
 
 Start the program.
 
@@ -145,7 +145,7 @@ Confirm that the User Menu is displayed.
 
 ---
 
-Test 2: Book a Ticket
+# Test 2: Book a Ticket
 
 Log in as a user.
 
@@ -168,7 +168,7 @@ Confirm that a PNR number is generated and the booking status is shown as Confir
 ---
 
 
-Test 3: View Bookings
+# Test 3: View Bookings
 
 From the User Menu, select View My Bookings.
 
@@ -176,7 +176,9 @@ Verify that the newly created booking is displayed.
 
 Check the PNR, train, origin, destination, travel date, passengers, and status.
 
-Test 4: Search Ticket
+--- 
+
+# Test 4: Search Ticket
 
 Select Search Ticket.
 
