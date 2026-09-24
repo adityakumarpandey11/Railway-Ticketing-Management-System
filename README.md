@@ -1,516 +1,263 @@
-# Railway Ticketing Management System
+# Railway Ticketing  Management System
 
-## 📌 Project Overview
+## Project Overview
 
-The **Railway Ticketing Management System** is a Python-based console application designed to manage basic railway ticketing operations.
+The Railway Ticketing System is a Python-based console application designed to manage basic railway ticket booking operations.
 
-The system provides separate access for **Users** and **Administrators**. Users can book railway tickets, view their bookings, search for tickets using a PNR number, and cancel their tickets. Administrators can view all bookings, search and cancel bookings, and view basic railway statistics.
+The system provides separate access for users and administrators. Users can book tickets, view their bookings, search for tickets, and cancel their own tickets. Administrators can view all bookings, search and cancel bookings, and view railway statistics.
 
----
-
-## 🎯 Objectives
-
-* To create a simple railway ticket booking system.
-* To provide separate User and Admin access.
-* To collect and manage passenger and journey information.
-* To generate unique PNR numbers for bookings.
-* To allow users to view and cancel their bookings.
-* To provide ticket searching using PNR numbers.
-* To allow administrators to monitor all bookings.
-* To calculate basic railway booking statistics.
-* To demonstrate practical Python programming concepts.
+The project uses a menu-driven approach to provide a simple and organized way to interact with the railway ticketing system.
 
 ---
 
-## ✨ Features
-
-### 👤 User Features
-
-* User login
-* Book railway tickets
-* Select available trains
-* Enter origin and destination
-* Enter travel date
-* Book tickets for multiple passengers
-* Automatic PNR generation
-* View personal bookings
-* Search tickets
-* Cancel own tickets
-* Logout
-
-### 🛠️ Admin Features
-
-* Admin login
-* View all bookings
-* Search tickets using PNR
-* Cancel bookings
-* View railway statistics
-* Monitor confirmed and cancelled bookings
-* Logout
+## Objectives
+- To create a simple railway ticket booking system.
+- To provide separate User and admin access.
+- To collect and manage passengers and journey information.
+- To generate unique PNR numbers for bookings.
+- To allow users to view and cancel their bookings.
+- To provide ticket searching using PNR numbers.
+- To allow administrators to monitor all bookings.
+- To calculate basic railway booking statistics.
+- To demonstrate practical python programming concepts.
 
 ---
 
-## 🚆 Available Trains
+## Features
 
-| Train Number | Train Name         |
-| ------------ | ------------------ |
-| 12001        | Bhopal Shatabdi    |
-| 12101        | Jnaneswari Express |
-| 12622        | Tamil Nadu Express |
-| 12951        | Mumbai Rajdhani    |
+- User and administrator login
+- Railway ticket booking
+- Train selection
+- Passenger details management
+- Automatic PNR generation
+- View and search bookings
+- Ticket cancellation
+- Booking status management
+- Railway booking statistics
+- Input validation and error handling
+- Menu-driven console interface
 
----
+--- 
 
-## 🔑 Login Details
+## Technologies/Tools Used
 
-The current version uses predefined login credentials.
+Python 3
 
-### User
+Python functions
 
-```text
-Username: student
-Password: student123
-```
+Conditional statements
 
-### Admin
+Loops
 
-```text
-Username: admin
-Password: admin123
-```
+Lists
 
-> **Note:** These credentials are included directly in the source code for this project.
+Dictionaries
 
----
+Input validation
 
-## 🧩 Project Modules
+Console/Terminal
 
-### 1. Login System
+Git and GitHub for version control
 
-Authenticates the user and identifies whether the account belongs to a User or Administrator.
-
-### 2. User Menu
-
-Provides access to:
-
-* Book Railway Ticket
-* View My Bookings
-* Search Ticket
-* Cancel Ticket
-* Logout
-
-### 3. Ticket Booking
-
-Collects:
-
-* Train details
-* Origin station
-* Destination station
-* Travel date
-* Number of passengers
-* Passenger names
-
-A unique PNR number is generated for every booking.
-
-### 4. Ticket Search
-
-Allows users and administrators to search for a ticket using its PNR number.
-
-### 5. Ticket Cancellation
-
-Users can cancel their own tickets, while administrators can cancel bookings through the Admin Menu.
-
-### 6. Railway Statistics
-
-Displays:
-
-* Total bookings
-* Confirmed bookings
-* Cancelled bookings
-* Total passengers
+The current project does not require any external Python libraries.
 
 ---
 
-## 🛠️ Technologies Used
+# Installation
 
-* **Python 3**
-* Lists
-* Dictionaries
-* Functions
-* Loops
-* Conditional Statements
-* Exception Handling
-* Console-based User Interface
-* Git & GitHub
+Prerequisites
 
-No external Python libraries are required for the current version.
+• Python 3 installed on your computer.
+• Git installed if you want to clone the repository.
+• A terminal or command prompt to run the project.
+• No additional Python libraries are required.
 
----
+Check whether Python is installed by running:
 
-## 📂 Project Structure
-
-```text
-Railway-Ticketing-Management-System/
-│
-├── project1.py
-├── README.md
-└── statement.md
-```
-
----
-
-# ⚙️ Installation and Setup
-
-Follow the steps below to install and run the project on your computer.
-
-## Step 1: Install Python
-
-Download and install **Python 3** on your computer.
-
-After installation, open **Command Prompt / Terminal** and check whether Python is installed:
-
-```bash
 python --version
-```
 
-If that command does not work, try:
+If your system uses python3, run:
 
-```bash
 python3 --version
-```
 
-You should see the installed Python version.
+Clone the Repository
 
----
+Clone the project repository:
 
-## Step 2: Download the Project
+git clone <repository-url>
 
-You can either clone the GitHub repository or download it as a ZIP file.
+Open the project directory:
 
-### Option 1 — Clone using Git
+cd <project-folder>
 
-Open Command Prompt or Terminal and run:
+No additional packages are required.
 
-```bash
-git clone <your-github-repository-url>
-```
+How to Run the Project
 
-Then move into the project folder:
+Run the Python program using:
 
-```bash
-cd Railway-Ticketing-Management-System
-```
-
-### Option 2 — Download ZIP
-
-1. Open the GitHub repository.
-2. Click **Code**.
-3. Select **Download ZIP**.
-4. Extract the ZIP file.
-5. Open the extracted project folder.
-
----
-
-## Step 3: Check the Project Files
-
-Make sure the project folder contains:
-
-```text
-project1.py
-README.md
-statement.md
-```
-
----
-
-## Step 4: Run the Program
-
-Open Command Prompt or Terminal inside the project folder.
-
-Run:
-
-```bash
 python project1.py
-```
 
-If your system uses `python3`, run:
+Or, on systems that use python3:
 
-```bash
 python3 project1.py
-```
+
+The Railway Ticketing System main menu will appear after the program starts.
 
 ---
 
-## Step 5: Login
+# Login Details
 
-After running the program, the main menu will appear:
+The current program contains sample login credentials.
 
-```text
-===================================
-   RAILWAY TICKETING SYSTEM
-===================================
+User Login
 
-1. User Login
-2. Admin Login
-3. Exit
-```
-
-### To use the User section
-
-Select:
-
-```text
-1
-```
-
-Then enter:
-
-```text
 Username: student
 Password: student123
-```
 
-### To use the Admin section
+Admin Login
 
-Select:
-
-```text
-2
-```
-
-Then enter:
-
-```text
 Username: admin
 Password: admin123
-```
+
+These credentials are included in the source code for demonstration and testing.
 
 ---
 
-## Step 6: Book a Ticket
+# Instructions for Testing
 
-After logging in as a user:
+Test 1: User Login
 
-1. Select **Book Railway Ticket**.
-2. Select a train.
-3. Enter the origin station.
-4. Enter the destination station.
-5. Enter the travel date.
-6. Enter the number of passengers.
-7. Enter passenger names.
-8. The system generates a PNR number.
-9. The booking is stored with a **Confirmed** status.
+Start the program.
 
----
+Select 1. User Login.
 
-## Step 7: View or Search a Ticket
+Enter:
 
-From the User Menu:
+Username: student
 
-```text
-1. Book Railway Ticket
-2. View My Bookings
-3. Search Ticket
-4. Cancel Ticket
-5. Logout
-```
+Password: student123
 
-Select **View My Bookings** to display your bookings.
+Confirm that the User Menu is displayed.
 
-Select **Search Ticket** and enter the PNR number to find a particular ticket.
+Test 2: Book a Ticket
 
----
+Log in as a user.
 
-## Step 8: Cancel a Ticket
+Select Book Railway Ticket.
 
-Select:
+Select one of the available trains.
 
-```text
-4. Cancel Ticket
-```
+Enter an origin station.
 
-Enter the PNR number.
+Enter a different destination station.
 
-The system checks whether the ticket belongs to the logged-in user before cancelling it.
+Enter a travel date.
 
----
+Enter the number of passengers.
 
-## Step 9: Use the Admin Panel
+Enter the passenger names.
 
-Login using:
+Confirm that a PNR number is generated and the booking status is shown as Confirmed.
 
-```text
+Test 3: View Bookings
+
+From the User Menu, select View My Bookings.
+
+Verify that the newly created booking is displayed.
+
+Check the PNR, train, origin, destination, travel date, passengers, and status.
+
+Test 4: Search Ticket
+
+Select Search Ticket.
+
+Enter the PNR number of an existing booking.
+
+Verify that the ticket details are displayed.
+
+Test an invalid PNR to verify that the system reports that the ticket was not found.
+
+Test 5: Cancel Ticket
+
+Select Cancel Ticket.
+
+Enter the PNR of the user's booking.
+
+Verify that the ticket status changes to Cancelled.
+
+Try cancelling the same ticket again and verify that the system identifies it as already cancelled.
+
+Test 6: Admin Login
+
+Return to the main menu.
+
+Select Admin Login.
+
+Enter:
+
 Username: admin
+
 Password: admin123
-```
 
-The administrator can:
+Confirm that the Administrator Menu is displayed.
 
-* View all bookings
-* Search tickets
-* Cancel bookings
-* View railway statistics
-* Logout
+Test 7: View All Bookings
 
----
+Select View All Bookings.
 
-# 🔄 System Workflow
+Verify that the bookings created during testing are displayed.
 
-```text
-                    START
-                      |
-                      v
-          Railway Ticketing System
-                      |
-             -------------------
-             |                 |
-             v                 v
-        User Login        Admin Login
-             |                 |
-             v                 v
-         User Menu         Admin Menu
-             |                 |
-       ---------------    ---------------
-       |      |      |    |      |      |
-       v      v      v    v      v      v
-      Book   View   Search View  Search Statistics
-             |      |     All
-             v      v
-           Cancel  Ticket
-             |
-             v
-            EXIT
-```
+Check that the booking information is shown correctly.
 
----
+Test 8: Railway Statistics
 
-## 💾 Data Management
+From the Administrator Menu, select Railway Statistics.
 
-The current version uses Python's built-in data structures to store information during program execution.
+Verify the displayed:
 
-### User Data
+Total bookings
 
-User credentials and roles are stored in a dictionary.
+Confirmed bookings
 
-### Ticket Data
+Cancelled bookings
 
-Ticket information is stored in a list.
+Total passengers
 
-Each ticket contains:
+Test 9: Invalid Input Testing
 
-```text
-PNR
-Username
-Train Number
-Train Name
-Origin
-Destination
-Travel Date
-Passengers
-Status
-```
+Test the program with:
+
+Incorrect username.
+
+Incorrect password.
+
+Invalid menu choice.
+
+Invalid train selection.
+
+Same origin and destination.
+
+Zero or negative passenger count.
+
+Non-numeric PNR.
+
+Non-existent PNR.
+
+Verify that the program displays an appropriate error message and continues to operate.
 
 ---
 
-## 🧪 Testing
+# Project File
 
-| Test                        | Expected Result               |
-| --------------------------- | ----------------------------- |
-| Correct username/password   | Login successful              |
-| Incorrect password          | Error message                 |
-| Invalid train selection     | Selection rejected            |
-| Same origin and destination | Booking rejected              |
-| Invalid passenger count     | Error message                 |
-| Valid PNR                   | Ticket displayed              |
-| Invalid PNR                 | Ticket not found              |
-| Valid cancellation          | Ticket cancelled              |
-| Already cancelled ticket    | Cancellation rejected         |
-| No existing bookings        | Appropriate message displayed |
+Railway-Ticketing-System/
+|
+|-- project1.py
+|-- README.md   
 
 ---
 
-## ⚠️ Current Limitations
-
-* Booking data is stored temporarily in memory.
-* Data is lost when the program is closed.
-* No real railway database is connected.
-* No online payment system.
-* No real-time seat availability.
-* No email or SMS notifications.
-* No user registration system.
-* Passwords are not encrypted.
-* Train information is currently predefined.
-
----
-
-## 🚀 Future Enhancements
-
-1. **CSV or Database Storage**
-
-   * Permanently store users and bookings.
-
-2. **Train Management**
-
-   * Allow administrators to add, remove, and modify trains.
-
-3. **Seat Availability**
-
-   * Track available and occupied seats.
-
-4. **Fare Calculation**
-
-   * Automatically calculate ticket prices.
-
-5. **User Registration**
-
-   * Allow passengers to create accounts.
-
-6. **Secure Authentication**
-
-   * Implement secure password storage.
-
-7. **Database Integration**
-
-   * Use SQLite or another database system.
-
-8. **Graphical User Interface**
-
-   * Convert the console application into a GUI.
-
-9. **Digital Ticket Generation**
-
-   * Generate a printable railway ticket.
-
-10. **Advanced Train Search**
-
-    * Search trains based on origin, destination, and travel date.
-
----
-
-## 📚 Python Concepts Demonstrated
-
-* Variables
-* Data types
-* Input and output
-* `if`, `elif`, and `else`
-* `for` loops
-* `while` loops
-* Lists
-* Dictionaries
-* Functions
-* String manipulation
-* Exception handling
-* Data processing
-* Modular programming
-* Basic authentication
-* Input validation
-
----
-
-## 👨‍💻 Author
-
-**Aditya Kumar Pandey**
-
-**Project:** Railway Ticketing Management System
-
-**Language:** Python
+## Author 
+Aditya Kumar Pandey
+Project = Railway Ticketing Management System
+Language : Python
