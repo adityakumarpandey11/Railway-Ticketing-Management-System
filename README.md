@@ -41,92 +41,95 @@ The project uses a menu-driven approach to provide a simple and organized way to
 
 ## Technologies/Tools Used
 
-Python 3
-
-Python functions
-
-Conditional statements
-
-Loops
-
-Lists
-
-Dictionaries
-
-Input validation
-
-Console/Terminal
-
-Git and GitHub for version control
+* Python 3
+* Python functions
+* Conditional statements
+* Loops
+* Lists
+* Dictionaries
+* Input validation
+* Console/Terminal
+* Git and GitHub for version control
 
 The current project does not require any external Python libraries.
 
 ---
 
-# Installation
+## Installation and Setup
 
-Prerequisites
+Follow the steps below to install and run the project on your computer.
 
-• Python 3 installed on your computer.
-• Git installed if you want to clone the repository.
-• A terminal or command prompt to run the project.
-• No additional Python libraries are required.
+Step 1: Install Python
 
-Check whether Python is installed by running:
+Download and install Python 3 on your computer.
+
+After installation, open Command Prompt / Terminal and check whether Python is installed:
 
 python --version
 
-If your system uses python3, run:
+If that command does not work, try:
 
 python3 --version
 
-Clone the Repository
+You should see the installed Python version.
 
-Clone the project repository:
+Step 2: Download the Project
 
-git clone <repository-url>
+You can either clone the GitHub repository or download it as a ZIP file.
 
-Open the project directory:
+Option 1 — Clone using Git
 
-cd <project-folder>
+Open Command Prompt or Terminal and run:
 
-No additional packages are required.
+git clone <your-github-repository-url>
 
-How to Run the Project
+Then move into the project folder:
 
-Run the Python program using:
+cd Railway-Ticketing-Management-System
+Option 2 — Download ZIP
+Open the GitHub repository.
+Click Code.
+Select Download ZIP.
+Extract the ZIP file.
+Open the extracted project folder.
+Step 3: Check the Project Files
+
+Make sure the project folder contains:
+
+project1.py
+README.md
+statement.md
+Step 4: Run the Program
+
+Open Command Prompt or Terminal inside the project folder.
+
+Run:
 
 python project1.py
 
-Or, on systems that use python3:
+If your system uses python3, run:
 
 python3 project1.py
 
-The Railway Ticketing System main menu will appear after the program starts.
-
 ---
 
-# Login Details
+## Login Details
 
-The current program contains sample login credentials.
+The current version uses predefined login credentials.
 
-User Login
-
+User
 Username: student
 Password: student123
-
-Admin Login
-
+Admin
 Username: admin
 Password: admin123
 
-These credentials are included in the source code for demonstration and testing.
-
+Note: These credentials are included directly in the source code for this project.
 ---
 
-# Instructions for Testing
+## Instructions for Testing
 
-Test 1: User Login
+#Test 1: User Login
 
 Start the program.
 
@@ -139,6 +142,8 @@ Username: student
 Password: student123
 
 Confirm that the User Menu is displayed.
+
+---
 
 Test 2: Book a Ticket
 
@@ -160,6 +165,9 @@ Enter the passenger names.
 
 Confirm that a PNR number is generated and the booking status is shown as Confirmed.
 
+---
+
+
 Test 3: View Bookings
 
 From the User Menu, select View My Bookings.
@@ -178,6 +186,9 @@ Verify that the ticket details are displayed.
 
 Test an invalid PNR to verify that the system reports that the ticket was not found.
 
+---
+
+
 Test 5: Cancel Ticket
 
 Select Cancel Ticket.
@@ -187,6 +198,9 @@ Enter the PNR of the user's booking.
 Verify that the ticket status changes to Cancelled.
 
 Try cancelling the same ticket again and verify that the system identifies it as already cancelled.
+
+---
+
 
 Test 6: Admin Login
 
@@ -202,6 +216,9 @@ Password: admin123
 
 Confirm that the Administrator Menu is displayed.
 
+---
+
+
 Test 7: View All Bookings
 
 Select View All Bookings.
@@ -209,6 +226,9 @@ Select View All Bookings.
 Verify that the bookings created during testing are displayed.
 
 Check that the booking information is shown correctly.
+
+---
+
 
 Test 8: Railway Statistics
 
@@ -223,6 +243,9 @@ Confirmed bookings
 Cancelled bookings
 
 Total passengers
+
+---
+
 
 Test 9: Invalid Input Testing
 
