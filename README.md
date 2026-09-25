@@ -124,7 +124,7 @@ The current version uses predefined login credentials.
 * Password: student123
 # Admin
 * Username: admin
-* Password: admin123
+* Passwgord: admin123
 
 Note: These credentials are included directly in the source code for this project.
 ---
