@@ -59,7 +59,7 @@ The current project does not require any external Python libraries.
 
 Follow the steps below to install and run the project on your computer.
 
-Step 1: Install Python
+### Step 1: Install Python
 
 Download and install Python 3 on your computer.
 
@@ -72,8 +72,9 @@ If that command does not work, try:
 python3 --version
 
 You should see the installed Python version.
+
 ---
-Step 2: Download the Project
+### Step 2: Download the Project
 
 You can either clone the GitHub repository or download it as a ZIP file.
 
@@ -95,15 +96,16 @@ Open the extracted project folder.
 
 ---
 
-Step 3: Check the Project Files
+### Step 3: Check the Project Files
 
 Make sure the project folder contains:
 
 - project1.py
 - README.md
 - statement.md
+
 ---
-Step 4: Run the Program
+### Step 4: Run the Program
 
 Open Command Prompt or Terminal inside the project folder.
 
