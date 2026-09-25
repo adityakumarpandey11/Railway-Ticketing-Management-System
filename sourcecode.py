@@ -144,10 +144,10 @@ def book_ticket(username):             # Here the user enters the data for booki
         print("\nOrigin and destination cannot be the same.")
         return
 
-    travel_date = input("Enter travel date (DD-MM-YYYY)")
+    travel_date = input("Enter travel date (DD-MM-YYYY) :")
 
     try:
-        passengers = int(input("Enter the number of passengers"))
+        passengers = int(input("Enter the number of passengers :"))
 
         if passengers <= 0 :
             print("Number of passengers must be greater than zero.")
