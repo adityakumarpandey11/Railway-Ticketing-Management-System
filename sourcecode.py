@@ -12,7 +12,7 @@ def user_menu(username):               #Returns the username credentials and pro
     while True:
         print("\n========================================")
         print("              USER MENU")
-        print("=========================================")
+        print("==========================================")
 
         print("Logged in as:", username)
                                          # Catalog associated in Railway Ticketing system
