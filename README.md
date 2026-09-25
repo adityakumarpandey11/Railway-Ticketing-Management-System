@@ -85,12 +85,12 @@ git clone <your-github-repository-url>
 
 Then move into the project folder:
 
-cd Railway-Ticketing-Management-System
-Option 2 — Download ZIP
-Open the GitHub repository.
-Click Code.
-Select Download ZIP.
-Extract the ZIP file.
+cd Railway-Ticketing-Management-System\
+Option 2 — Download ZIP\
+Open the GitHub repository.\
+Click Code.\
+Select Download ZIP.\
+Extract the ZIP file.\
 Open the extracted project folder.
 ---
 Step 3: Check the Project Files
@@ -119,14 +119,15 @@ python3 project1.py
 
 The current version uses predefined login credentials.
 
-# User
+### User
 * Username: student
 * Password: student123
-# Admin
+### Admin
 * Username: admin
 * Passwgord: admin123
 
 Note: These credentials are included directly in the source code for this project.
+
 ---
 
 ## Instructions for Testing
@@ -277,8 +278,8 @@ Verify that the program displays an appropriate error message and continues to o
 
 Railway-Ticketing-System/
 |
-|-- project1.py
-|-- README.md   
+|-- project1.py\
+|-- README.md  \
 |-- statement.md
 
 ## Author 
