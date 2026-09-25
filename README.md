@@ -316,6 +316,37 @@ Railway-Ticketing-System/\
 
 ---
 
+## Screenshots
+
+### User Menu
+![User Menu](screenshots/01-user-menu.png)
+
+### Ticket Booking
+![Ticket Booking](screenshots/02-ticket-booked.png)
+
+### My Bookings
+![My Bookings](screenshots/03-my-bookings.png)
+
+### Search Ticket
+![Search Ticket](screenshots/04-search-ticket.png)
+
+### Admin Menu
+![Admin Menu](screenshots/05-admin-menu.png)
+
+### Railway Statistics
+![Railway Statistics](screenshots/06-statistics.png)
+
+
+
+
+
+
+
+
+
+
+
+
 ## Author 
 Aditya Kumar Pandey \
 Project = Railway Ticketing Management System\
