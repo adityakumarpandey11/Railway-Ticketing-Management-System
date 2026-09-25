@@ -134,7 +134,7 @@ Note: These credentials are included directly in the source code for this projec
 
 ## Instructions for Testing
 
-#### Test 1: User Login
+### Test 1: User Login
 
 Start the program.
 
@@ -150,7 +150,7 @@ Confirm that the User Menu is displayed.
 
 ---
 
-#### Test 2: Book a Ticket
+### Test 2: Book a Ticket
 
 Log in as a user.
 
@@ -173,7 +173,7 @@ Confirm that a PNR number is generated and the booking status is shown as Confir
 ---
 
 
-#### Test 3: View Bookings
+### Test 3: View Bookings
 
 From the User Menu, select View My Bookings.
 
@@ -194,7 +194,7 @@ Test an invalid PNR to verify that the system reports that the ticket was not fo
 ---
 
 
-#### Test 5: Cancel Ticket
+### Test 5: Cancel Ticket
 
 Select Cancel Ticket.
 
@@ -207,7 +207,7 @@ Try cancelling the same ticket again and verify that the system identifies it as
 ---
 
 
-#### Test 6: Admin Login
+### Test 6: Admin Login
 
 Return to the main menu.
 
@@ -224,7 +224,7 @@ Confirm that the Administrator Menu is displayed.
 ---
 
 
-Test 7: View All Bookings
+### Test 7: View All Bookings
 
 Select View All Bookings.
 
@@ -235,7 +235,7 @@ Check that the booking information is shown correctly.
 ---
 
 
-Test 8: Railway Statistics
+### Test 8: Railway Statistics
 
 From the Administrator Menu, select Railway Statistics.
 
@@ -252,7 +252,7 @@ Total passengers
 ---
 
 
-Test 9: Invalid Input Testing
+### Test 9: Invalid Input Testing
 
 Test the program with:
 
