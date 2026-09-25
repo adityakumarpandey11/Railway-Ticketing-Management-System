@@ -72,7 +72,7 @@ If that command does not work, try:
 python3 --version
 
 You should see the installed Python version.
-
+---
 Step 2: Download the Project
 
 You can either clone the GitHub repository or download it as a ZIP file.
@@ -92,13 +92,15 @@ Click Code.
 Select Download ZIP.
 Extract the ZIP file.
 Open the extracted project folder.
+---
 Step 3: Check the Project Files
 
 Make sure the project folder contains:
 
-project1.py
-README.md
-statement.md
+- project1.py
+- README.md
+- statement.md
+---
 Step 4: Run the Program
 
 Open Command Prompt or Terminal inside the project folder.
@@ -117,19 +119,19 @@ python3 project1.py
 
 The current version uses predefined login credentials.
 
-User
-- Username: student
-- Password: student123
-Admin
-- Username: admin
-- Password: admin123
+# User
+* Username: student
+* Password: student123
+# Admin
+* Username: admin
+* Password: admin123
 
 Note: These credentials are included directly in the source code for this project.
---- 
+---
 
 ## Instructions for Testing
 
-# Test 1: User Login
+Test 1: User Login
 
 Start the program.
 
@@ -145,7 +147,7 @@ Confirm that the User Menu is displayed.
 
 ---
 
-# Test 2: Book a Ticket
+Test 2: Book a Ticket
 
 Log in as a user.
 
@@ -168,7 +170,7 @@ Confirm that a PNR number is generated and the booking status is shown as Confir
 ---
 
 
-# Test 3: View Bookings
+Test 3: View Bookings
 
 From the User Menu, select View My Bookings.
 
@@ -176,9 +178,7 @@ Verify that the newly created booking is displayed.
 
 Check the PNR, train, origin, destination, travel date, passengers, and status.
 
---- 
-
-# Test 4: Search Ticket
+Test 4: Search Ticket
 
 Select Search Ticket.
 
@@ -279,6 +279,7 @@ Railway-Ticketing-System/
 |
 |-- project1.py
 |-- README.md   
+|-- statement.md
 
 ---
 
