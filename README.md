@@ -319,23 +319,22 @@ Railway-Ticketing-System/\
 ## Screenshots
 
 ### User Menu
-![User Menu](screenshots/01-user-menu.png)
+<img width="1000" height="431" alt="01-user-menu" src="https://github.com/user-attachments/assets/525403a3-f313-4f5e-a19c-7236c249cb0b" />
 
 ### Ticket Booking
-![Ticket Booking](screenshots/02-ticket-booked.png)
+<img width="1000" height="555" alt="02-ticket-booked" src="https://github.com/user-attachments/assets/097011b3-7696-4765-b441-8adb8225be1a" />
 
 ### My Bookings
-![My Bookings](screenshots/03-my-bookings.png)
+<img width="1000" height="617" alt="03-my-bookings" src="https://github.com/user-attachments/assets/3b2659c2-22e3-479b-ab67-2359645700ed" />
 
 ### Search Ticket
-![Search Ticket](screenshots/04-search-ticket.png)
+<img width="1000" height="617" alt="04-search-ticket" src="https://github.com/user-attachments/assets/c976a676-19bb-46ed-878f-2d34351523e3" />
 
 ### Admin Menu
-![Admin Menu](screenshots/05-admin-menu.png)
+<img width="1000" height="462" alt="05-admin-menu" src="https://github.com/user-attachments/assets/dd5ea404-1c27-44e7-9038-47571168da45" />
 
 ### Railway Statistics
-![Railway Statistics](screenshots/06-statistics.png)
-
+<img width="1000" height="586" alt="06-statistics" src="https://github.com/user-attachments/assets/50c60a1f-bc9b-4a60-ad14-83d8d092b37f" />
 
 ## Author 
 Aditya Kumar Pandey \
