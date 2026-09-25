@@ -8,8 +8,8 @@ Managing railway ticket bookings manually can be time-consuming and difficult to
 The project covers basic railway ticket operations such as booking tickets, viewing bookings, searching tickets, cancelling tickets, and managing bookings through an administrator section.
 
 ## Target Users
-Passengers/Users – To book, view, search, and cancel their tickets.\
-Administrators – To view and manage bookings and access railway statistics.
+* Passengers/Users – To book, view, search, and cancel their tickets.\
+* Administrators – To view and manage bookings and access railway statistics.
 
 ## High-Level Features
 - User and administrator login
