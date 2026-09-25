@@ -319,7 +319,7 @@ Railway-Ticketing-System/\
 ## Screenshots
 
 ### User Menu
-![User Menu](screenshots/01-user-menu.png)
+![User Menu](screenshots/C:\Users\g10ca\Downloads\railway_readme_screenshots)
 
 ### Ticket Booking
 ![Ticket Booking](screenshots/02-ticket-booked.png)
@@ -335,16 +335,6 @@ Railway-Ticketing-System/\
 
 ### Railway Statistics
 ![Railway Statistics](screenshots/06-statistics.png)
-
-
-
-
-
-
-
-
-
-
 
 
 ## Author 
