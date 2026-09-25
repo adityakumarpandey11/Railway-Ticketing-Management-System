@@ -85,13 +85,13 @@ You can either clone the GitHub repository or download it as a ZIP file.
 #### Option 1 — Clone the Repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone <https://github.com/adityakumarpandey11/vityarthiproject.git>
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd Railway-Ticketing-System
+cd vityarthiproject
 ```
 
 #### Option 2 — Download ZIP
