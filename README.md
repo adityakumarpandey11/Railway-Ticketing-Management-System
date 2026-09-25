@@ -65,11 +65,15 @@ Download and install Python 3 on your computer.
 
 After installation, open Command Prompt / Terminal and check whether Python is installed:
 
+```bash
 python --version
+```
 
-If that command does not work, try:
+If required, use:
 
+```bash
 python3 --version
+```
 
 You should see the installed Python version.
 
@@ -78,44 +82,53 @@ You should see the installed Python version.
 
 You can either clone the GitHub repository or download it as a ZIP file.
 
-Option 1 — Clone using Git
+#### Option 1 — Clone the Repository
 
-Open Command Prompt or Terminal and run:
-
+```bash
 git clone <your-github-repository-url>
+```
 
-Then move into the project folder:
+Navigate to the project folder:
 
-cd Railway-Ticketing-Management-System\
-Option 2 — Download ZIP\
-Open the GitHub repository.\
-Click Code.\
-Select Download ZIP.\
-Extract the ZIP file.\
-Open the extracted project folder.
+```bash
+cd Railway-Ticketing-System
+```
+
+#### Option 2 — Download ZIP
+
+1. Open the GitHub repository.
+2. Click **Code**.
+3. Select **Download ZIP**.
+4. Extract the downloaded ZIP file.
+5. Open the extracted project folder.
+
+---
+
+### Step 3: Verify the Project Files
+
+Make sure the project contains:
+
+```text
+project1.py
+README.md
+statement.md
+```
 
 ---
 
-### Step 3: Check the Project Files
+### 4. Run the Program
 
-Make sure the project folder contains:
+Open Command Prompt or Terminal inside the project folder and run:
 
-- project1.py
-- README.md
-- statement.md
-
----
-### Step 4: Run the Program
-
-Open Command Prompt or Terminal inside the project folder.
-
-Run:
-
+```bash
 python project1.py
+```
 
-If your system uses python3, run:
+If your system uses `python3`:
 
+```bash
 python3 project1.py
+```
 
 ---
 
@@ -278,6 +291,21 @@ Verify that the program displays an appropriate error message and continues to o
 
 ---
 
+##  Sample Output
+
+A successful booking contains information such as:
+
+```text
+PNR: 10001
+Train: Express Train
+Origin: Chennai
+Destination: Bengaluru
+Travel Date: 25-09-2026
+Passengers: 2
+Status: Confirmed
+```
+---
+
 # Project File
 
 Railway-Ticketing-System/\
@@ -285,6 +313,8 @@ Railway-Ticketing-System/\
 |-- project1.py\
 |-- README.md  \
 |-- statement.md
+
+---
 
 ## Author 
 Aditya Kumar Pandey \
