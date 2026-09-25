@@ -72,7 +72,9 @@ If that command does not work, try:
 python3 --version
 
 You should see the installed Python version.
+
 ---
+
 Step 2: Download the Project
 
 You can either clone the GitHub repository or download it as a ZIP file.
@@ -85,14 +87,16 @@ git clone <your-github-repository-url>
 
 Then move into the project folder:
 
-cd Railway-Ticketing-Management-System
-Option 2 — Download ZIP
-Open the GitHub repository.
-Click Code.
-Select Download ZIP.
-Extract the ZIP file.
-Open the extracted project folder.
+cd Railway-Ticketing-Management-System\
+Option 2 — Download ZIP\
+Open the GitHub repository.\
+Click Code.\
+Select Download ZIP.\
+Extract the ZIP file.\
+Open the extracted project folder.\
+
 ---
+
 Step 3: Check the Project Files
 
 Make sure the project folder contains:
@@ -100,7 +104,9 @@ Make sure the project folder contains:
 - project1.py
 - README.md
 - statement.md
+- 
 ---
+
 Step 4: Run the Program
 
 Open Command Prompt or Terminal inside the project folder.
