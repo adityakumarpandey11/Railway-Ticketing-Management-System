@@ -1,0 +1,5 @@
+# No external packages are required.
+# The project uses Python standard-library modules:
+# os
+# random
+# datetime
